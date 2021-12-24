@@ -158,39 +158,39 @@
     \vskip 26pt
   \end{center}
 }
-%\newcommand\csu@make@titlepage@en{%
-%  \cleardoublepage
-%  \def\csu@info@fund{\zihao{-5}\csu@clist@use{\csu@info@fund@en}{\par}}
-%  \thispagestyle{title}
-%  \begin{center}
-%    \vspace*{28pt}
-%    {\zihao{-2}\csu@name@subject@en\par}
-%    \vskip \stretch{4}
-%    {\zihao{2}\bfseries\MakeUppercase\csu@info@title@en\par}
-%    \vskip \stretch{5}
-%    \begingroup
-%      \zihao{4}
-%      \def\arraystretch{1.25}
-%      \begin{tabular}
-%        {>{\bfseries}l<{:~}p{.45\textwidth}}
-%        \csu@name@author@en           & \csu@info@author@en         \\
-%        \csu@name@id@en               & \csu@info@id                \\
-%        \csu@name@supervisor@en       & \csu@info@supervisor@en     \\
-%        \ifx\csu@info@assisupervisor@en\@empty\else
-%          \csu@name@assisupervisor@en & \csu@info@assisupervisor@en \\
-%        \fi
-%        \csu@name@degree@en           & \csu@info@degree@en         \\
-%       \csu@name@major@en            & \csu@info@major@en          \\
-%        \csu@name@department@en       & \csu@info@department@en     \\
-%        \csu@name@defenddate@en       &
-%          \csu@date{\csu@date@format@en}{\csu@info@date}           \\
-%        \csu@name@conferring@en       & \csu@name@school@en         \\
-%      \end{tabular}
-%      \par
-%   \endgroup
-%    \vskip 26pt
-%  \end{center}
-%}
+\newcommand\csu@make@titlepage@en{%
+  \cleardoublepage
+  \def\csu@info@fund{\zihao{-5}\csu@clist@use{\csu@info@fund@en}{\par}}
+  \thispagestyle{title}
+  \begin{center}
+    \vspace*{28pt}
+    {\zihao{-2}\csu@name@subject@en\par}
+    \vskip \stretch{4}
+    {\zihao{2}\bfseries\MakeUppercase\csu@info@title@en\par}
+    \vskip \stretch{5}
+    \begingroup
+      \zihao{4}
+      \def\arraystretch{1.25}
+      \begin{tabular}
+        {>{\bfseries}l<{:~}p{.45\textwidth}}
+        \csu@name@author@en           & \csu@info@author@en         \\
+        \csu@name@id@en               & \csu@info@id                \\
+        \csu@name@supervisor@en       & \csu@info@supervisor@en     \\
+        \ifx\csu@info@assisupervisor@en\@empty\else
+          \csu@name@assisupervisor@en & \csu@info@assisupervisor@en \\
+        \fi
+        \csu@name@degree@en           & \csu@info@degree@en         \\
+       \csu@name@major@en            & \csu@info@major@en          \\
+        \csu@name@department@en       & \csu@info@department@en     \\
+        \csu@name@defenddate@en       &
+          \csu@date{\csu@date@format@en}{\csu@info@date}           \\
+        \csu@name@conferring@en       & \csu@name@school@en         \\
+      \end{tabular}
+      \par
+   \endgroup
+    \vskip 26pt
+  \end{center}
+}
 \endinput
 %%
 %% End of file `csuthesis-graduate.ltx'.
