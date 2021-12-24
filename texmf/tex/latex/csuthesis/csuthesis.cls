@@ -434,7 +434,7 @@
   \fi
   \csu@name@def{author@zh}{学生姓名}
   \csu@name@def{id@zh}{学生学号}
-  \csu@name@def{supervisor@zh}{指导教师}
+ % \csu@name@def{supervisor@zh}{指导教师}
   \csu@name@def{course@zh}{课程名称}
   \csu@name@def{major@zh}{专业班级}
   \csu@name@def{department@zh}{学院}
