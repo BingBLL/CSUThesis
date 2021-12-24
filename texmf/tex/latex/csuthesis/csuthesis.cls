@@ -488,7 +488,7 @@
     }
   }
   \ctexset{
-    chapter/name    = {第,章},
+    chapter/name    = {第,节},      % 这里将章改为节适用于课程报告
     chapter/number  = \chinese{chapter},
   }
   \csu@name@def{titlepage}{扉页}
